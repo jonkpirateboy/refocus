@@ -1,7 +1,7 @@
 # refocus
 
 ## Javascript
-Include the javascript and call it on any event, like <a href="https://api.jquery.com/load-event/">window load</a> or <a href="http://luis-almeida.github.com/unveil">Unveil</a>.
+Include the javascript and call it on any event, like <a href="https://api.jquery.com/load-event/">window load</a> or <a href="https://github.com/luis-almeida/unveil">Unveil</a>.
 
 ## Stylesheet
 Include refocus.css and maka changes in your own css or inline css like this:
