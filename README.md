@@ -22,4 +22,4 @@ Include refocus.css and make changes in your own css or inline css like this:
 ```
 
 ## Html
-See a working example in index.html
+See a working example <a href="http://jonkpirateboy.github.io/refocus/demo/index.html">here</a>.
