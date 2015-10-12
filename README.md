@@ -1,28 +1,22 @@
 # refocus
 
 ## Javascript
-<script type="text/javascript" src="jquery.refocus.js"></script>
-<script type="text/javascript">
-	$(window).load(function () {
-		$('.refocus-1').refocus();
-	});
-</script>
+Include the javascript and call it on any event, like <a href="https://api.jquery.com/load-event/">window load</a> or <a href="http://luis-almeida.github.com/unveil">Unveil</a>.
 
 ## Stylesheet
-<link href="refocus.css" rel="stylesheet" media="all">
-<style>
-	/*only necessary if you want more or less blur*/
-	.refocus-1 .focus-out,
-	.refocus-1 .refocus-img-bg {
-		filter: blur(15px);
-		-webkit-filter: blur(15px);
-	}
-	/*only necessary if you want faster or slower blur*/
-	.refocus-1 .focus-in,
-	.refocus-1 .focus-out {
-		transition: all 2s ease 0.3s;
-	}
-</style>
+Include refocus.css and maka changes in your own css or inline css like this:
+
+/*only necessary if you want more or less blur*/
+.refocus-1 .focus-out,
+.refocus-1 .refocus-img-bg {
+	filter: blur(15px);
+	-webkit-filter: blur(15px);
+}
+/*only necessary if you want faster or slower blur*/
+.refocus-1 .focus-in,
+.refocus-1 .focus-out {
+	transition: all 2s ease 0.3s;
+}
 
 ## Html
-See index.html
+See example in index.html
