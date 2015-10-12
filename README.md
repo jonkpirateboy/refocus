@@ -1,4 +1,4 @@
-# refocus
+# Refocus
 
 ## Javascript
 Include the javascript and call it on any event, like <a href="https://api.jquery.com/load-event/">window load</a> or <a href="https://github.com/luis-almeida/unveil">Unveil</a>.
