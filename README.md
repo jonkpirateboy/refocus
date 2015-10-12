@@ -7,6 +7,7 @@ Include the javascript and call it on any event, like <a href="https://api.jquer
 ## Stylesheet
 Include refocus.css and make changes in your own css or inline css like this:
 
+```
 /*only necessary if you want more or less blur*/
 .refocus-1 .focus-out,
 .refocus-1 .refocus-img-bg {
@@ -18,6 +19,7 @@ Include refocus.css and make changes in your own css or inline css like this:
 .refocus-1 .focus-out {
 	transition: all 2s ease 0.3s;
 }
+```
 
 ## Html
 See a working example in index.html
