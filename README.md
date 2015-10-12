@@ -1,6 +1,6 @@
 # refocus
 
-Javascript
+## Javascript
 <script type="text/javascript" src="jquery.refocus.js"></script>
 <script type="text/javascript">
 	$(window).load(function () {
@@ -8,7 +8,7 @@ Javascript
 	});
 </script>
 
-Stylesheet
+## Stylesheet
 <link href="refocus.css" rel="stylesheet" media="all">
 <style>
 	/*only necessary if you want more or less blur*/
@@ -24,7 +24,7 @@ Stylesheet
 	}
 </style>
 
-Html
+## Html
 <div class="refocus refocus-1">
 	<div class="refocus-img-bg"></div>
 	<div class="refocus-img focus-in">
