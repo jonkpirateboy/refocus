@@ -7,15 +7,17 @@
 
 jQuery.fn.extend({
     refocus: function () {
-	container = '#' + $(this).attr('id');
-	imgSrc = $(container + ' .refocus-img img').attr('src');
-	containerHeight = $(container + ' .refocus-img img').height()*0.8;
-	contentHeight = $(container + ' .refocus-text-container .t').height();
-	$(container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('background-image','url('+imgSrc+')');
-	$(container + ', ' + container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('height', containerHeight);
-	$(container + ', ' + container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('min-height', contentHeight);
-	$(container + ' .focus-out, ' + container + ' .focus-in').addClass('refocus');
-	$(container + ' .focus-out.refocus').removeClass('focus-out refocus').addClass('focus-in');
-	$(container + ' .focus-in.refocus').removeClass('focus-in refocus').addClass('focus-out');
+		container = $(this);
+		imgSrc = $(this).find('.refocus-img img').attr('src');
+		containerHeight = $(this).find('.refocus-img img').height()*0.8;
+		contentHeight = $(this).find('.refocus-text-container .t').height();
+		$(this).find('.refocus-img, .refocus-img-bg').css('background-image','url('+imgSrc+')');
+		$(this).css('height', containerHeight);
+		$(this).css('min-height', contentHeight);
+		$(this).find('.refocus-img, .refocus-img-bg').css('height', containerHeight);
+		$(this).find('.refocus-img, .refocus-img-bg').css('min-height', contentHeight);
+		$(this).find('.focus-out, .focus-in').addClass('refocus');
+		$(this).find('.focus-out.refocus').removeClass('focus-out refocus').addClass('focus-in');
+		$(this).find('.focus-in.refocus').removeClass('focus-in refocus').addClass('focus-out');
     }
 });
