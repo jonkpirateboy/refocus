@@ -7,7 +7,7 @@
 
 jQuery.fn.extend({
     refocus: function () {
-    	container = '.' + $(this).attr('class');
+    	container = '#' + $(this).attr('id');
         imgSrc = $(container + ' .refocus-img img').attr('src');
 	containerHeight = $(container + ' .refocus-img img').height()*0.8;
 	$(container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('background-image','url('+imgSrc+')');
