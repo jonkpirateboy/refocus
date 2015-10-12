@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Refocus</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="refocus.css" rel="stylesheet" media="all">
+    <style type="text/css">
+      body {
+       font-family: 'Roboto',Verdana,Arial,sans-serif;
+      }
+      h1 {
+        font-weight:100;
+        font-size:72px;
+      }
+    </style>
+  </head>
+<body>
+<div class="refocus refocus-1">
+	<div class="refocus-img-bg"></div>
+	<div class="refocus-img focus-in">
+		<img src="refocus.jpg" alt=""/>
+	</div>
+	<div class="refocus-text-container">
+		<div class="t">
+			<div class="tc">
+				<h1 class="focus-out">This is a blur text transition</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.refocus.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+	$('.refocus').refocus();
+});
+</script>
+</body>
+</html>
