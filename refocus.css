@@ -1,0 +1,59 @@
+.refocus {
+	position: relative;
+	overflow: hidden;
+}
+.refocus .refocus-img,
+.refocus .refocus-img-bg {
+	position: absolute;
+	margin-left:-10%;
+	width: 120%;
+	background-size: 100% auto;
+	overflow: hidden;
+}
+.refocus .refocus-img img {
+	display: none;
+}
+.refocus .refocus-text-container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.t {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.t .tc {
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+}
+.refocus .refocus-text-container,
+.refocus .refocus-text-container .container, 
+.refocus .refocus-text-container .container .row, 
+.refocus .refocus-text-container .container .row .refocus-col {
+  height: 100%;
+}
+.refocus .refocus-text-container .container .row .refocus-col,
+.refocus .refocus-text-container .container .row .refocus-col * {
+  color: #fff;
+  text-align: center;
+}
+.refocus .focus-in,
+.refocus .focus-out {
+	transition: all 3s ease 0.5s;
+}
+.refocus .focus-out,
+.refocus .refocus-img-bg {
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+}
+.refocus .focus-in {
+	filter: blur(0);
+	-webkit-filter: blur(0);
+}
+.refocus .focus-in.refocus-img-bg,
+.refocus .focus-out.refocus-img-bg {
+	transition: all 0s ease 0s;
+}
