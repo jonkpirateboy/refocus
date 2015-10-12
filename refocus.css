@@ -7,11 +7,13 @@
 	position: absolute;
 	margin-left:-10%;
 	width: 120%;
-	background-size: 100% auto;
+	background-size: cover;
 	overflow: hidden;
 }
 .refocus .refocus-img img {
 	display: none;
+	width: 100%;
+	height: auto;
 }
 .refocus .refocus-text-container {
 	position: absolute;
