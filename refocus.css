@@ -44,7 +44,9 @@
 }
 .refocus .focus-in,
 .refocus .focus-out {
-	transition: all 3s ease 0.5s;
+	transition: filter 3s ease 0.5s;
+        -webkit-transition: -webkit-filter 3s ease 0.5s;
+
 }
 .refocus .focus-out,
 .refocus .refocus-img-bg {
