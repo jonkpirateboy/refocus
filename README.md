@@ -25,16 +25,4 @@
 </style>
 
 ## Html
-<div class="refocus refocus-1">
-	<div class="refocus-img-bg"></div>
-	<div class="refocus-img focus-in">
-		<img src="refocus.jpg" alt=""/>
-	</div>
-	<div class="refocus-text-container">
-		<div class="t">
-			<div class="tc">
-				<h1 class="focus-out">This is a blur text transition</h1>
-			</div>
-		</div>
-	</div>
-</div>
+See index.html
