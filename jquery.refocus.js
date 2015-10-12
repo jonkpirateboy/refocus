@@ -10,8 +10,10 @@ jQuery.fn.extend({
 	container = '#' + $(this).attr('id');
 	imgSrc = $(container + ' .refocus-img img').attr('src');
 	containerHeight = $(container + ' .refocus-img img').height()*0.8;
+	contentHeight = $(container + ' .refocus-text-container .t').height();
 	$(container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('background-image','url('+imgSrc+')');
 	$(container + ', ' + container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('height', containerHeight);
+	$(container + ', ' + container + ' .refocus-img, ' + container + ' .refocus-img-bg').css('min-height', contentHeight);
 	$(container + ' .focus-out, ' + container + ' .focus-in').addClass('refocus');
 	$(container + ' .focus-out.refocus').removeClass('focus-out refocus').addClass('focus-in');
 	$(container + ' .focus-in.refocus').removeClass('focus-in refocus').addClass('focus-out');
