@@ -1,4 +1,5 @@
 # Refocus
+A lightweight jQuery plugin to focus and unfocus like a camera
 
 ## Javascript
 Include the javascript and call it on any event, like <a href="https://api.jquery.com/load-event/">window load</a> or <a href="https://github.com/luis-almeida/unveil">Unveil</a>. Add the class focus-in to the elements you want to go from blurry to sharp, and focus-out that you want to go from sharp to blurry.
