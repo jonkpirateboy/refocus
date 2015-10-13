@@ -33,16 +33,8 @@
 	width: 100%;
 	vertical-align: middle;
 }
-.refocus .refocus-text-container,
-.refocus .refocus-text-container .container, 
-.refocus .refocus-text-container .container .row, 
-.refocus .refocus-text-container .container .row .refocus-col {
+.refocus .refocus-text-container {
  	height: 100%;
-}
-.refocus .refocus-text-container .container .row .refocus-col,
-.refocus .refocus-text-container .container .row .refocus-col * {
-	color: #fff;
-	text-align: center;
 }
 .refocus .focus-in,
 .refocus .focus-out {
