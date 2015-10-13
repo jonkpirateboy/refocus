@@ -21,12 +21,12 @@ jQuery.fn.extend({
 	var timer;
 	thisContainer = $(this);
 	$(window).resize(function () {
-	    timer = setTimeout(function () { 
-	        containerHeight = thisContainer.find('.refocus-img img').height()*0.8;
+		timer = setTimeout(function () { 
+			containerHeight = thisContainer.find('.refocus-img img').height()*0.8;
 			contentHeight = thisContainer.find('.refocus-text-container .refocus-text').height();
 			thisContainer.css('height', containerHeight);
 			thisContainer.css('min-height', contentHeight);
-	    }, 500);
+		}, 500);
 	});
     }
 });
