@@ -22,12 +22,12 @@
 	top: 0;
 	width: 100%;
 }
-.t {
+.refocus .t {
 	display: table;
 	height: 100%;
 	width: 100%;
 }
-.t .tc {
+.refocus .t .tc {
 	display: table-cell;
 	height: 100%;
 	width: 100%;
