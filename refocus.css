@@ -36,6 +36,9 @@
 .refocus .refocus-text-container {
  	height: 100%;
 }
+.refocus .refocus-text {
+	display: block;
+}
 .refocus .focus-in,
 .refocus .focus-out {
 	transition: filter 3s ease 0.5s;
