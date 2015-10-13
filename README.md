@@ -17,7 +17,8 @@ Include refocus.css and make changes in your own css or inline css like this:
 /*only necessary if you want faster or slower blur*/
 #refocus-1 .focus-in,
 #refocus-1 .focus-out {
-	transition: all 2s ease 0.3s;
+    transition: filter 2s ease 0.3s;
+	-webkit-transition: -webkit-filter 2s ease 0.3s;
 }
 ```
 
