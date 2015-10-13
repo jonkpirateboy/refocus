@@ -6,7 +6,9 @@
 .refocus .refocus-img-bg {
 	position: absolute;
 	margin-left:-10%;
+	margin-top: -10%;
 	width: 120%;
+	height: 120%;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -35,18 +37,17 @@
 .refocus .refocus-text-container .container, 
 .refocus .refocus-text-container .container .row, 
 .refocus .refocus-text-container .container .row .refocus-col {
-  height: 100%;
+ 	height: 100%;
 }
 .refocus .refocus-text-container .container .row .refocus-col,
 .refocus .refocus-text-container .container .row .refocus-col * {
-  color: #fff;
-  text-align: center;
+	color: #fff;
+	text-align: center;
 }
 .refocus .focus-in,
 .refocus .focus-out {
 	transition: filter 3s ease 0.5s;
-        -webkit-transition: -webkit-filter 3s ease 0.5s;
-
+	-webkit-transition: -webkit-filter 3s ease 0.5s;
 }
 .refocus .focus-out,
 .refocus .refocus-img-bg {

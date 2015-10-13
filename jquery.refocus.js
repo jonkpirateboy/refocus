@@ -14,8 +14,6 @@ jQuery.fn.extend({
 		$(this).find('.refocus-img, .refocus-img-bg').css('background-image','url('+imgSrc+')');
 		$(this).css('height', containerHeight);
 		$(this).css('min-height', contentHeight);
-		$(this).find('.refocus-img, .refocus-img-bg').css('height', containerHeight);
-		$(this).find('.refocus-img, .refocus-img-bg').css('min-height', contentHeight);
 		$(this).find('.focus-out, .focus-in').addClass('refocus');
 		$(this).find('.focus-out.refocus').removeClass('focus-out refocus').addClass('focus-in');
 		$(this).find('.focus-in.refocus').removeClass('focus-in refocus').addClass('focus-out');
