@@ -1,8 +1,10 @@
 /**
  * jQuery Refocus
  * A lightweight jQuery plugin to focus and unfocus like a camera
- *
  * http://jonkpirateboy.github.io/refocus/
+
+ * Licensed under the MIT license.
+ * Copyright 2015 Johan Stenström
  */
 
 jQuery.fn.extend({
