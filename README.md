@@ -6,6 +6,3 @@ Include the javascript and call it on any event, like <a href="https://api.jquer
 
 ## Stylesheet
 Include refocus.css and make changes in your own css-file or inline css.
-
-## Html
-Example code and working example <a href="http://jonkpirateboy.github.io/refocus/">here</a>.
